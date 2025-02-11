@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.smokum-regular {
+  font-family: "Smokum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
