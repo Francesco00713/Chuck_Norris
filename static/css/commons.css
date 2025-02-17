@@ -4,11 +4,13 @@
 .rye-regular {
     font-family: "Rye", serif;
     font-weight: 400;
+    font-size: 75px;
     font-style: normal;
   }
 
 .smokum-regular {
   font-family: "Smokum", serif;
   font-weight: 400;
+  font-size: 30px;
   font-style: normal;
 }

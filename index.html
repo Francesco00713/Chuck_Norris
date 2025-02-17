@@ -7,32 +7,40 @@
     <title>Chuck Norris Jokes</title>
 </head>
 <body>
-    <hader>
-        <h2 class="rye-regular">CHUCK NORRIS JOKES</h2>
-        <p class="smokum-regular">Seleziona dal menu a tendina la categoria del joke, poi clicca il bottone per caricarlo</p>
-    </hader>
     <main>
-        <select>
-            <option value="">Nessuna categoria</option>
-            <option value="animal">Animal</option>
-            <option value="carrer">Carrer</option>
-            <option value="celebrity">Celebrity</option>
-            <option value="dev">Dev</option>
-            <option value="explicit">Explicit</option>
-            <option value="fashion">Fashion</option>
-            <option value="food">Food</option>
-            <option value="history">History</option>
-            <option value="money">Money</option>
-            <option value="movie">Movie</option>
-            <option value="music">Music</option>
-            <option value="political">Political</option>
-            <option value="religion">Religion</option>
-            <option value="science">Science</option>
-            <option value="sport">Sport</option>
-            <option value="travel">Travel</option>
-        </select>
+        <hader class="header">
+            <h2 class="title rye-regular">CHUCK NORRIS JOKES</h2>
+            <p class="smokum-regular">Seleziona dal menu a tendina la categoria del joke, poi clicca il bottone per caricarlo</p>
+        </hader>
+        <section class="section">
+            <select id="menu">
+                <option value="nessuna">Nessuna categoria</option>
+                <option value="animal">Animal</option>
+                <option value="carrer">Carrer</option>
+                <option value="celebrity">Celebrity</option>
+                <option value="dev">Dev</option>
+                <option value="explicit">Explicit</option>
+                <option value="fashion">Fashion</option>
+                <option value="food">Food</option>
+                <option value="history">History</option>
+                <option value="money">Money</option>
+                <option value="movie">Movie</option>
+                <option value="music">Music</option>
+                <option value="political">Political</option>
+                <option value="religion">Religion</option>
+                <option value="science">Science</option>
+                <option value="sport">Sport</option>
+                <option value="travel">Travel</option>
+            </select>
+            <form action="" method="get">
+                <input type="button" name="btn" class="button rye-regular" id="hitMe" value="LOAD JOKE">
+            </form>
+        </section>
     </main>
-    <script>
-    </script>
+    <div class="footer">
+        <p class="smokum-regular" id="footer">
+        </p>
+    </div>
+    <script type="text/javascript" src="static/js/index.js"></script>
 </body>
 </html>
